@@ -1,0 +1,47 @@
+/* ============================================= */
+/*              Variables                        */
+/* ============================================= */
+
+// Colors
+$white: #fff;
+$gray: #ccc;
+
+$color-text: #777;
+$color-primary: #58e1c1;
+$color-secondary: #51ddfc;
+
+$color-choice1: #927bc1;
+$color-choice2: #fd7856;
+$color-choice3: #deb2ee;
+$color-choice4: #7ee6fd;
+$color-choice5: #88d9a0;
+$color-choice6: #4da2bb;
+$color-choice7: #ec9fa3;
+$color-choice8: #fd9f85;
+$color-choice9: #e4757a;
+$color-choice10: #63cc82;
+$color-choice20: #80e8d1;
+
+/*  lighten background colors */
+$color-secondary-light: lighten($color-secondary, 15%);
+$color-choice9-light: lighten($color-choice9, 15%);
+$color-choice1-light: lighten($color-choice1, 15%);
+$color-choice10-light: lighten($color-choice10, 15%);
+$color-choice2-light: lighten($color-choice2, 15%);
+
+
+// Media query breakpoints & max width
+$brk-narrow: 768px;
+
+$max-width: 1400px;
+
+// Font stacks & styles
+$stack-lato: 'Lato', sans-serif;
+
+$weight-light: 300;
+$weight-heavy: 700;
+
+$size-plus-more: 1.5em;
+
+// transition
+$fade: background-color .2s ease-in-out;
