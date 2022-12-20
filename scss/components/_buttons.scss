@@ -10,38 +10,44 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
-      &-default {
-      background-color: $color-secondary;
-      &:hover {
-        background-color: $color-secondary-light;
-        transition: $fade;
-      }
+}
+    .default {
+    @extend .btn;
+    background-color: $color-secondary;
+    &:hover {
+      background-color: $color-secondary-light;
+      transition: $fade;
     }
-        &-error {
-      background-color: $color-choice9;
-      &:hover {
-        background-color: $color-choice9-light;
-        transition: $fade;
-      }
+  }
+    .error {
+    @extend .btn;
+    background-color: $color-choice9;
+    &:hover {
+      background-color: $color-choice9-light;
+      transition: $fade;
     }
-        &-info {
-      background-color: $color-choice1;
-      &:hover {
-        background-color: $color-choice1-light;
-        transition: $fade;
-      }
+  }
+    .info {
+    @extend .btn;
+    background-color: $color-choice1;
+    &:hover {
+      background-color: $color-choice1-light;
+      transition: $fade;
     }
-        &-success {
-      background-color: $color-choice10;
-      &:hover {
-        background-color: $color-choice10-light;
-        transition: $fade;
-      }
+  }
+    .success {
+    @extend .btn;
+    background-color: $color-choice10;
+    &:hover {
+      background-color: $color-choice10-light;
+      transition: $fade;
     }
-        &-warning {
-      background-color: $color-choice2;
-      &:hover {
-        background-color: $fade;
-    }
+  }
+    .warning {
+    @extend .btn;
+    background-color: $color-choice2;
+    &:hover {
+      background-color: $color-choice2-light;
+      transition: $fade;
   }
 }
